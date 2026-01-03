@@ -14,52 +14,50 @@ const FavouriteList = ({ favourites, onRemove, onClearAll, onDrop }) => {
     }).format(price);
   };
 
-    const handleDragStart = (e, property) => {
-        setDraggedItem(property);
-        e.dataTransfer.effectAllowed = 'move';
-        e.dataTransfer.setData('text/plain', property.id);
-        e.dataTransfer.setData('application/json', JSON.stringify(property));
-        e.currentTarget.classList.add('dragging-away');
-    };
+  const handleDragStart = (e, property) => {
+    setDraggedItem(property);
+    e.dataTransfer.effectAllowed = 'move';
+    e.dataTransfer.setData('text/plain', property.id);
+    e.dataTransfer.setData('application/json', JSON.stringify(property));
+    e.currentTarget.classList.add('dragging-away');
+  };
 
-    const handleDragEnd = (e, property) => {
+  const handleDragEnd = (e, property) => {
     const sidebarElement = sidebarRef.current;
+    
+    if (!sidebarElement) {
+      setDraggedItem(null);
+      return;
+    }
 
-        if (!sidebarElement) {
-        setDraggedItem(null);
-        return;
+    const dropTarget = document.elementFromPoint(e.clientX, e.clientY);
+    
+    if (!dropTarget) {
+      const sidebarRect = sidebarElement.getBoundingClientRect();
+      const distanceX = Math.abs(e.clientX - sidebarRect.right);
+      const distanceY = Math.abs(e.clientY - sidebarRect.top);
+      
+      if (distanceX > 150 || distanceY > 150) {
+        if (onRemove) {
+          onRemove(property.id);
         }
+      }
+      setDraggedItem(null);
+      return;
+    }
 
-        const dropTarget = document.elementFromPoint(e.clientX, e.clientY);
-
-        if (!dropTarget) {
-            const sidebarRect = sidebarElement.getBoundingClientRect();
-            const distanceX = Math.abs(e.clientX - sidebarRect.right);
-            const distanceY = Math.abs(e.clientY - sidebarRect.top);
-
-            if (distanceX > 150 || distanceY > 150) {
-                if (onRemove) {
-                    onRemove(property.id);
-                }
-            }
-            setDraggedItem(null);
-            return;
-        }
-
-        const isOutsideSidebar = !sidebarElement.contains(dropTarget);
-        const propertiesContainer = document.querySelector('.properties-results');
+    const isInsideSidebar = sidebarElement.contains(dropTarget);
+    
+    const propertiesContainer = document.querySelector('.properties-results');
     const isInPropertiesList = propertiesContainer && propertiesContainer.contains(dropTarget);
     
-    
     if (!isInsideSidebar && !isInPropertiesList) {
-      
       const sidebarRect = sidebarElement.getBoundingClientRect();
       if (e.clientX < sidebarRect.left - 100) {
         if (onRemove) {
           onRemove(property.id);
         }
       } else {
-        
         const mainContent = document.querySelector('.main-content');
         if (mainContent && !mainContent.contains(dropTarget)) {
           if (onRemove) {
@@ -69,27 +67,23 @@ const FavouriteList = ({ favourites, onRemove, onClearAll, onDrop }) => {
       }
     }
     
-    
     const draggingElements = document.querySelectorAll('.dragging-away');
     draggingElements.forEach(el => el.classList.remove('dragging-away'));
     
     setDraggedItem(null);
   };
 
-  
   const handleDragOver = (e) => {
     e.preventDefault();
     e.dataTransfer.dropEffect = 'move';
     setIsDragOver(true);
   };
 
-  
   const handleDragLeave = (e) => {
     e.preventDefault();
     setIsDragOver(false);
   };
 
-  
   const handleDrop = (e) => {
     e.preventDefault();
     e.stopPropagation();
