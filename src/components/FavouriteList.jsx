@@ -50,16 +50,16 @@ const FavouriteList = ({ favourites, onRemove, onClearAll, onDrop }) => {
         const propertiesContainer = document.querySelector('.properties-results');
     const isInPropertiesList = propertiesContainer && propertiesContainer.contains(dropTarget);
     
-    // If dropped outside both favourites sidebar and properties list, remove it
+    
     if (!isInsideSidebar && !isInPropertiesList) {
-      // Additional check: if dragged to the left of the sidebar significantly, remove it
+      
       const sidebarRect = sidebarElement.getBoundingClientRect();
       if (e.clientX < sidebarRect.left - 100) {
         if (onRemove) {
           onRemove(property.id);
         }
       } else {
-        // Check if it's clearly outside the main content area
+        
         const mainContent = document.querySelector('.main-content');
         if (mainContent && !mainContent.contains(dropTarget)) {
           if (onRemove) {
@@ -69,34 +69,33 @@ const FavouriteList = ({ favourites, onRemove, onClearAll, onDrop }) => {
       }
     }
     
-    // Remove visual feedback
+    
     const draggingElements = document.querySelectorAll('.dragging-away');
     draggingElements.forEach(el => el.classList.remove('dragging-away'));
     
     setDraggedItem(null);
   };
 
-  // Handle drag over - allow drop
+  
   const handleDragOver = (e) => {
     e.preventDefault();
     e.dataTransfer.dropEffect = 'move';
     setIsDragOver(true);
   };
 
-  // Handle drag leave
+  
   const handleDragLeave = (e) => {
     e.preventDefault();
     setIsDragOver(false);
   };
 
-  // Handle drop - add property from property list or reorder favourites
+  
   const handleDrop = (e) => {
     e.preventDefault();
     e.stopPropagation();
     setIsDragOver(false);
     
     try {
-      // Try to get property data from drag
       const propertyData = e.dataTransfer.getData('application/json');
       if (propertyData) {
         const property = JSON.parse(propertyData);
