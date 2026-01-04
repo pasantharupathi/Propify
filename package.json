@@ -1,4 +1,5 @@
 {
+  "homepage": "https://pasantharupathi.github.io/Propify",
   "name": "propify-estate-agents",
   "private": true,
   "version": "1.0.0",
@@ -7,6 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "jest"
   },
   "dependencies": {
