@@ -23,8 +23,7 @@ export default function Home() {
               Find Your Perfect Home
             </h1>
             <p className="home-hero-description">
-              Discover exceptional properties across London and the South East. 
-              Your dream home is just a search away.
+              Discover exceptional homes throughout London and the South East—your perfect property is only a search away.
             </p>
             <div className="home-hero-stats">
               <div className="home-hero-stat">
@@ -49,10 +48,7 @@ export default function Home() {
           <div className="home-about-content">
             <h2 className="home-about-title">Welcome to Propify Estate Agents</h2>
             <p className="home-about-description">
-              Your trusted partner in finding your perfect property. We specialize in connecting 
-              buyers with exceptional homes across London and the South East. With a carefully 
-              curated selection of verified properties, we make your property search simple, 
-              efficient, and enjoyable.
+              A trusted partner in your property journey, connecting buyers with outstanding homes across London and the South East. With a refined selection of verified properties, we deliver a seamless and rewarding search experience.
             </p>
             
             <div className="home-about-features">

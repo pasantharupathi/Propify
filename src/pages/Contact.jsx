@@ -38,9 +38,7 @@ const Contact = () => {
       <div className="page-content">
         <h1>Contact Us</h1>
         <p>
-          We'd love to hear from you. Whether you're looking to buy, sell, or
-          rent a property, or if you have any questions, please don't hesitate
-          to get in touch.
+          Whether you’re buying, selling, or renting a property, or seeking expert advice, our team is ready to assist. Contact us today to get started.
         </p>
 
         <div className="contact-info">

@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="footer-section">
             <h3>Propify Estate Agents</h3>
             <p className="footer-description">
-              Your trusted partner in finding the perfect property. We help you discover your dream home with ease.
+              Your trusted guide in discovering exceptional properties. We make finding your ideal home a seamless experience.
             </p>
           </div>
 
