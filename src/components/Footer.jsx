@@ -36,7 +36,7 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Contact Us</h4>
             <div className="footer-contact">
-              <p><strong>Address:</strong> 345 High level street, kandy, Sri Lanka</p>
+              <p><strong>Address:</strong> 345 High level street, Brixton, London</p>
               <p><strong>Phone:</strong> +94 78 384 0690</p>
               <p><strong>Email:</strong> propifyestateagents@gmail.com</p>
             </div>

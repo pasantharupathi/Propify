@@ -45,7 +45,7 @@ const Contact = () => {
 
         <div className="contact-info">
           <h3>Get in Touch</h3>
-          <p><strong>Address:</strong> 345 High level street, kandy, Sri Lanka</p>
+          <p><strong>Address:</strong> 345 High level street, Brixton, London</p>
           <p><strong>Phone:</strong> +94 78 384 0690</p>
           <p><strong>Email:</strong> propifyestateagents@gmail.com</p>
           <p><strong>Opening Hours:</strong> Monday - Friday: 9:00 AM - 6:00 PM, Saturday: 10:00 AM - 4:00 PM</p>
