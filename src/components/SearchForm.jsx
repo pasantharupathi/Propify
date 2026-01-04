@@ -110,7 +110,7 @@ const SearchForm = ({ onSearch, initialFilters = {} }) => {
             name="location"
             value={filters.location}
             onChange={handleChange}
-            placeholder="e.g., UK, Orpington"
+            placeholder="e.g., Sidcup, Orpington"
             maxLength="50"
           />
         </div>
