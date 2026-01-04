@@ -43,7 +43,7 @@ const PropertyCard = ({ property, onDragStart, onAddToFavourites, onRemoveFromFa
   const formatPrice = (price) => {
     return new Intl.NumberFormat('en-GB', {
       style: 'currency',
-      currency: 'LKR',
+      currency: 'GBP',
       maximumFractionDigits: 0
     }).format(price);
   };
