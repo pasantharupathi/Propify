@@ -18,7 +18,7 @@
       "p7" : "../public/images/prop1/conservatory.jpg",
       "floormap" : "../public/images/prop1/floorplan.jpg",
       "url" : "properties/prop1.html",
-      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63320.41806362056!2d80.58458130485856!3d7.294628573326567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!5e0!3m2!1sen!2slk!4v1767390095387!5m2!1sen!2slk",
+      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.6754936725865!2d0.08208490000000002!3d51.3906419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab82cc8f3cb1%3A0xc746da03b0c6c716!2sPetts%20Wood%20Rd%2C%20Petts%20Wood%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1767566659568!5m2!1sen!2slk",
       "added": { "month": "October", "day": 12, "year": 2020 }
     },
     {
@@ -38,8 +38,7 @@
       "p6" : "../public/images/prop6/bedroom.jpeg",
       "p7" : "../public/images/prop6/conservatory.jpeg",
       "floormap" : "../public/images/prop6/floorplan.jpeg",
-      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31687.079365186568!2d79.94483253133622!3d6.90436281292807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae256d59601df81%3A0x31a1dd96e8d49ba!2sMalabe!5e0!3m2!1sen!2slk!4v1767390188796!5m2!1sen!2slk",
-      "url" : "properties/prop6.html",
+      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.6133282394!2d0.0719676!3d51.373404799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab6ac2bdc8d1%3A0xb0dde3c09939f924!2sCrofton%20Rd%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1767566790664!5m2!1sen!2slk",
       "added": { "month": "September", "day": 14, "year": 2020 }
     },
     {
@@ -59,7 +58,7 @@
       "p6" : "../public/images/prop2/bedroom.jpeg",
       "p7" : "../public/images/prop2/conservatory.jpeg",
       "floormap" : "../public/images/prop2/floorplan.jpeg",
-      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63320.41806362048!2d80.58458130485856!3d7.294628573326567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662b775053e7%3A0x56fd7c0173ade283!2sCharlton%20Kandy%20Rest!5e0!3m2!1sen!2slk!4v1767382724796!5m2!1sen!2slk",
+      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.982148549612!2d0.01520830000000083!3d51.40338269999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8aa6e62559f07%3A0x7a40d87fea31d354!2sHigh%20St%2C%20Bromley%2C%20UK!5e0!3m2!1sen!2slk!4v1767566859251!5m2!1sen!2slk",
       "url" : "properties/prop2.html",
       "added": { "month": "November", "day": 5, "year": 2021 }
     },
@@ -80,7 +79,7 @@
       "p6" : "../public/images/prop5/bedroom.jpeg",
       "p7" : "../public/images/prop5/conservatory.jpeg",
       "floormap" : "../public/images/prop5/floorplan.jpeg",
-      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63293.76060099734!2d80.3165802552595!3d7.480703540966443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3398ab06be8b9%3A0x1f90e4e71e885052!2sKurunegala!5e0!3m2!1sen!2slk!4v1767390294969!5m2!1sen!2slk",
+      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.3774476440117!2d-0.014069499999999999!3d51.377740599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876003a88b74773%3A0x940f999edfdfb4a2!2sStation%20Rd%2C%20West%20Wickham%2C%20UK!5e0!3m2!1sen!2slk!4v1767566909463!5m2!1sen!2slk",
       "url" : "properties/prop5.html",
       "added": { "month": "August", "day": 22, "year": 2022 }
     },
@@ -101,7 +100,7 @@
       "p6" : "../public/images/prop3/bedroom.jpeg",
       "p7" : "../public/images/prop3/conservatory.jpeg",
       "floormap" : "../public/images/prop3/floorplan.jpeg",
-      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9417807120867!2d79.85742407382928!3d6.897567018705811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25b0010b6ed01%3A0xf3eee50a17295526!2sThummulla%20Junction!5e0!3m2!1sen!2slk!4v1767390371793!5m2!1sen!2slk",
+      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.6194603501285!2d0.07575400000000002!3d51.41004649999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8abecab2197b9%3A0xe2dc1f746875ce2b!2sChurch%20Ln%2C%20Chislehurst%2C%20UK!5e0!3m2!1sen!2slk!4v1767567005287!5m2!1sen!2slk",
       "url" : "properties/prop3.html",
       "added": { "month": "December", "day": 1, "year": 2023 }
     },
@@ -122,7 +121,7 @@
       "p6" : "../public/images/prop7/bedroom.jpeg",
       "p7" : "../public/images/prop7/conservatory.jpeg",
       "floormap" : "../public/images/prop7/floorplan.jpeg",
-      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63359.951957057376!2d79.91883500427376!3d7.009634947880674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f86bd75870f7%3A0xee362e29dbc079a6!2sKadawatha!5e0!3m2!1sen!2slk!4v1767390439490!5m2!1sen!2slk",
+      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.76715920674!2d0.104295!3d51.4257037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ac035feaccff%3A0xbc42e6c2115b9a35!2sHigh%20St%2C%20Sidcup%2C%20UK!5e0!3m2!1sen!2slk!4v1767567465898!5m2!1sen!2slk",
       "url" : "properties/prop7.html",
       "added": { "month": "July", "day": 18, "year": 2024 }
     },
@@ -143,7 +142,7 @@
       "p6" : "../public/images/prop4/bedroom.jpeg",
       "p7" : "../public/images/prop4/conservatory.jpeg",
       "floormap" : "../public/images/prop4/floorplan.jpeg",
-      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15845.710673471023!2d79.85593347907235!3d6.839220695707586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25adf35adafe5%3A0xaaa8ab5886bb68ac!2sMount%20Lavinia!5e0!3m2!1sen!2slk!4v1767390517907!5m2!1sen!2slk",
+      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.289888781031!2d0.024949199999999998!3d51.41610130000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8aa3dc52b2385%3A0x64e743f66b9a851e!2sGarden%20Rd%2C%20Bromley%2C%20UK!5e0!3m2!1sen!2slk!4v1767567412708!5m2!1sen!2slk",
       "url" : "properties/prop4.html",
       "added": { "month": "June", "day": 8, "year": 2025 }
     },
@@ -164,7 +163,7 @@
       "p6" : "../public/images/prop8/bedroom.jpeg",
       "p7" : "../public/images/prop8/conservatory.jpeg",
       "floormap" : "../public/images/prop8/floorplan.jpeg",
-      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31658.52548765512!2d80.60346978154436!3d7.318391198596523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3680a41692b41%3A0x59ad57702802f70f!2sKatugastota!5e0!3m2!1sen!2slk!4v1767390617385!5m2!1sen!2slk",
+      "map" :"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.76715920674!2d0.104295!3d51.4257037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ac035feaccff%3A0xbc42e6c2115b9a35!2sHigh%20St%2C%20Sidcup%2C%20UK!5e0!3m2!1sen!2slk!4v1767567363522!5m2!1sen!2slk",
       "url" : "properties/prop8.html",
       "added": { "month": "January", "day": 3, "year": 2026 }
     }
