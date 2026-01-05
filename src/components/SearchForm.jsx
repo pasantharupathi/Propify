@@ -60,7 +60,7 @@ const SearchForm = ({ onSearch, initialFilters = {} }) => {
         </div>
 
         <div className="form-group">
-          <label htmlFor="minPrice">Min Price (GBP)</label>
+          <label htmlFor="minPrice">Min Price (£)</label>
           <input
             type="number"
             id="minPrice"
@@ -73,7 +73,7 @@ const SearchForm = ({ onSearch, initialFilters = {} }) => {
         </div>
 
         <div className="form-group">
-          <label htmlFor="maxPrice">Max Price (GBP)</label>
+          <label htmlFor="maxPrice">Max Price (£)</label>
           <input
             type="number"
             id="maxPrice"
