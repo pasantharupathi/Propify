@@ -4,7 +4,7 @@ import '../styles/main.css';
 const ImageGallery = ({ property }) => {
   const generateImagePaths = () => {
     const images = [];
-    for (let i = 1; i <= 6; i++) {
+    for (let i = 1; i <= 7; i++) {
       images.push(property[`p${i}`]);
     }
     return images;
