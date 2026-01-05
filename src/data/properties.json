@@ -112,7 +112,7 @@
       "tenure": "Leasehold",
       "description": "Spacious three bedroom penthouse apartment with stunning views. This luxury property features a private balcony, high-specification finish throughout, and premium fixtures and fittings. The accommodation includes a large open-plan living area, modern kitchen with granite worktops, three double bedrooms, two bathrooms, and ample storage. Located in a prestigious development with concierge service.",
       "location": "Main Street, Sidcup DA14",
-      "picture": "/public/images/prop7/main.jpg",
+      "picture": "/images/prop7/main.jpg",
       "p1" : "../public/images/prop7/main.jpg",
       "p2" : "../public/images/prop7/kitchen.jpeg",
       "p3" : "../public/images/prop7/bathroom.jpeg",
