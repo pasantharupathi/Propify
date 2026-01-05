@@ -9,7 +9,7 @@
       "description": "Attractive three bedroom semi-detached family home situated in a popular residential location. The property benefits from a well-maintained rear garden, off-street parking, and is within walking distance of local amenities and transport links. The accommodation comprises a welcoming entrance hall, spacious living room with feature fireplace, modern fitted kitchen, three well-proportioned bedrooms, and a family bathroom. An ideal family home in a sought-after area.",
       "location": "Petts Wood Road, Petts Wood, Orpington BR5",
       "picture": "/images/prop1/main.jpg",
-      "p1" : "../public/images/prop1/main.jpg",
+      "p1" : "/images/prop1/main.jpg",
       "p2" : "../public/images/prop1/kitchen.jpg",
       "p3" : "../public/images/prop1/bathroom.jpg",
       "p4" : "../public/images/prop1/living.jpg",
